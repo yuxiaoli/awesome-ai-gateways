@@ -1,0 +1,160 @@
+{
+  "defaultLocale": "en",
+  "title": {
+    "en": "Awesome AI Gateways",
+    "zh-CN": "Awesome AI 网关",
+    "zh-HK": "Awesome AI 網關"
+  },
+  "description": {
+    "en": "A curated collection of AI and LLM API gateways, provider aggregators, model routers, and protocol proxies for unified access to AI models.",
+    "zh-CN": "精选 AI 与大语言模型 API 网关、服务商聚合器、模型路由器和协议代理项目，用于统一接入 AI 模型。",
+    "zh-HK": "精選 AI 與大型語言模型 API 網關、供應商聚合器、模型路由器及協定代理專案，協助統一存取 AI 模型。"
+  },
+  "sections": [
+    {
+      "title": {
+        "en": "General-Purpose LLM Gateways",
+        "zh-CN": "通用 LLM 网关",
+        "zh-HK": "通用 LLM 網關"
+      },
+      "description": {
+        "en": "Multi-provider gateways that consolidate model or upstream API services behind a unified interface, offering routing, API compatibility, or operational controls.",
+        "zh-CN": "汇聚多家模型服务商或上游 API 服务的通用网关，提供统一接口以及路由、协议兼容或运行管理能力。",
+        "zh-HK": "彙集多家模型供應商或上游 API 服務的通用網關，提供統一介面，以及路由、協定相容或營運管理功能。"
+      },
+      "entries": [
+        {
+          "name": {
+            "en": "Octopus",
+            "zh-CN": "Octopus",
+            "zh-HK": "Octopus"
+          },
+          "url": "https://github.com/bestruirui/octopus",
+          "description": {
+            "en": "Personal LLM API aggregation gateway with multiple upstream channels, protocol conversion, model groups, and automatic failover.",
+            "zh-CN": "面向个人的 LLM API 聚合网关，支持多上游渠道、协议转换、模型分组和自动故障切换。",
+            "zh-HK": "面向個人使用的 LLM API 聚合網關，支援多個上游渠道、協定轉換、模型分組及自動故障切換。"
+          }
+        },
+        {
+          "name": {
+            "en": "Metapi",
+            "zh-CN": "Metapi",
+            "zh-HK": "Metapi"
+          },
+          "url": "https://github.com/cita-777/metapi",
+          "description": {
+            "en": "Meta-gateway that combines AI relay services and compatible endpoints into one API entry, with model discovery and cost-aware routing.",
+            "zh-CN": "将多个 AI 中转站及兼容接口整合为统一 API 入口的元聚合网关，支持模型自动发现和成本优先路由。",
+            "zh-HK": "將多個 AI 中轉站及相容介面整合成統一 API 入口的元聚合網關，支援自動探索模型及成本優先路由。"
+          }
+        },
+        {
+          "name": {
+            "en": "LiteLLM",
+            "zh-CN": "LiteLLM",
+            "zh-HK": "LiteLLM"
+          },
+          "url": "https://github.com/BerriAI/litellm",
+          "description": {
+            "en": "LLM SDK and deployable AI gateway with a unified API for many providers, load balancing, virtual keys, spend tracking, and guardrails.",
+            "zh-CN": "提供统一多模型接口的 LLM SDK 与可部署 AI 网关，支持负载均衡、虚拟密钥、费用跟踪和安全防护。",
+            "zh-HK": "提供統一多模型介面的 LLM SDK 及可部署 AI 網關，支援負載平衡、虛擬密鑰、費用追蹤及安全防護。"
+          }
+        },
+        {
+          "name": {
+            "en": "FreeLLMAPI",
+            "zh-CN": "FreeLLMAPI",
+            "zh-HK": "FreeLLMAPI"
+          },
+          "url": "https://github.com/tashfeenahmed/freellmapi",
+          "description": {
+            "en": "Aggregates free-tier and custom LLM endpoints behind an OpenAI-compatible API, with provider failover, usage tracking, and encrypted keys.",
+            "zh-CN": "将免费额度与自定义 LLM 接口汇聚为 OpenAI 兼容 API，支持服务商故障切换、用量跟踪和密钥加密存储。",
+            "zh-HK": "將免費額度及自訂 LLM 介面彙集為 OpenAI 相容 API，支援供應商故障切換、用量追蹤及密鑰加密儲存。"
+          }
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "AI Coding Tool Gateways & Proxies",
+        "zh-CN": "AI 编程工具网关与代理",
+        "zh-HK": "AI 程式開發工具網關與代理"
+      },
+      "description": {
+        "en": "Routing and proxy tools for connecting AI coding assistants to model providers or subscriptions, including protocol translation, account management, and fallback.",
+        "zh-CN": "面向 AI 编程助手的路由和代理工具，用于连接模型服务商或账号订阅，并提供协议转换、账号管理或故障回退。",
+        "zh-HK": "面向 AI 程式開發助手的路由及代理工具，用於連接模型供應商或訂閱帳戶，並提供協定轉換、帳戶管理或故障備援。"
+      },
+      "entries": [
+        {
+          "name": {
+            "en": "9Router",
+            "zh-CN": "9Router",
+            "zh-HK": "9Router"
+          },
+          "url": "https://github.com/decolua/9router",
+          "description": {
+            "en": "Routes AI coding tools to multiple model providers through an OpenAI-compatible endpoint, with automatic fallback and token-saving features.",
+            "zh-CN": "通过 OpenAI 兼容接口将 AI 编程工具连接到多个模型服务商，支持自动故障回退和节省 Token 的功能。",
+            "zh-HK": "透過 OpenAI 相容介面將 AI 程式開發工具連接至多個模型供應商，支援自動故障備援及節省 Token 的功能。"
+          }
+        },
+        {
+          "name": {
+            "en": "CC Switch",
+            "zh-CN": "CC Switch",
+            "zh-HK": "CC Switch"
+          },
+          "url": "https://github.com/farion1231/cc-switch",
+          "description": {
+            "en": "Desktop provider manager with optional local request routing, API format conversion, failover, and aggregation for AI coding tools.",
+            "zh-CN": "面向 AI 编程工具的桌面服务商管理器，提供可选的本地请求路由、API 格式转换、故障回退和聚合模式。",
+            "zh-HK": "面向 AI 程式開發工具的桌面供應商管理器，提供可選的本地請求路由、API 格式轉換、故障備援及聚合模式。"
+          }
+        },
+        {
+          "name": {
+            "en": "Antigravity Tools",
+            "zh-CN": "Antigravity Tools",
+            "zh-HK": "Antigravity Tools"
+          },
+          "url": "https://github.com/lbjlaq/Antigravity-Manager",
+          "description": {
+            "en": "Multi-account manager with an AI API proxy exposing OpenAI- and Anthropic-compatible endpoints, model mapping, and account dispatch.",
+            "zh-CN": "多账号管理与 AI API 代理工具，提供 OpenAI 和 Anthropic 兼容接口、模型映射及账号调度。",
+            "zh-HK": "多帳戶管理及 AI API 代理工具，提供 OpenAI 和 Anthropic 相容介面、模型映射及帳戶調度。"
+          }
+        },
+        {
+          "name": {
+            "en": "CLI Proxy API",
+            "zh-CN": "CLI Proxy API",
+            "zh-HK": "CLI Proxy API"
+          },
+          "url": "https://github.com/router-for-me/CLIProxyAPI",
+          "description": {
+            "en": "Proxy server exposing OpenAI-, Gemini-, Claude-, Codex-, and Grok-compatible APIs for CLI-based model accounts, with multi-account load balancing.",
+            "zh-CN": "将 CLI 模型账号转换为 OpenAI、Gemini、Claude、Codex 和 Grok 兼容 API 的代理服务器，支持多账号负载均衡。",
+            "zh-HK": "將 CLI 模型帳戶轉換為 OpenAI、Gemini、Claude、Codex 及 Grok 相容 API 的代理伺服器，支援多帳戶負載平衡。"
+          }
+        },
+        {
+          "name": {
+            "en": "Code Switch",
+            "zh-CN": "Code Switch",
+            "zh-HK": "Code Switch"
+          },
+          "url": "https://github.com/daodao97/code-swtich",
+          "description": {
+            "en": "Claude Code and Codex provider manager using a local HTTP proxy for request forwarding, provider priorities, and automatic failover.",
+            "zh-CN": "面向 Claude Code 和 Codex 的服务商管理工具，通过本地 HTTP 代理实现请求转发、渠道优先级和自动故障回退。",
+            "zh-HK": "面向 Claude Code 及 Codex 的供應商管理工具，透過本地 HTTP 代理實現請求轉發、渠道優先次序及自動故障備援。"
+          }
+        }
+      ]
+    }
+  ]
+}
